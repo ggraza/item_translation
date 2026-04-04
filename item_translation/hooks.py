@@ -236,6 +236,11 @@ after_install = "item_translation.install.after_install"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# Translation
+# ------------
+# List of apps whose translatable strings should be excluded from this app's translations.
+ignore_translatable_strings_from = ["frappe", "erpnext"]
+
 custom_records = [
 	{
 		"doctype": "DocType Link",

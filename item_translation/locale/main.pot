@@ -1,0 +1,72 @@
+# Translations template for Item Translation.
+# Copyright (C) 2026 ALYF GmbH
+# This file is distributed under the same license as the Item Translation project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Item Translation VERSION\n"
+"Report-Msgid-Bugs-To: hallo@alyf.de\n"
+"POT-Creation-Date: 2026-04-04 16:08+0053\n"
+"PO-Revision-Date: 2026-04-04 16:08+0053\n"
+"Last-Translator: hallo@alyf.de\n"
+"Language-Team: hallo@alyf.de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Description of the 'Language' (Link) field in DocType 'Item Translation'
+#: item_translation/item_translation/doctype/item_translation/item_translation.json
+msgid "Best selected by shortcuts - like ja for Japanese"
+msgstr ""
+
+#. Label of a Link field in DocType 'Item Translation Settings'
+#: item_translation/item_translation/doctype/item_translation_settings/item_translation_settings.json
+msgid "Default Language"
+msgstr ""
+
+#. Label of a Check field in DocType 'Item Translation Settings'
+#: item_translation/item_translation/doctype/item_translation_settings/item_translation_settings.json
+msgid "Display Warnings"
+msgstr ""
+
+#. Description of the 'Display Warnings' (Check) field in DocType 'Item
+#. Translation Settings'
+#: item_translation/item_translation/doctype/item_translation_settings/item_translation_settings.json
+msgid "Display Warnings when no item translation matching the print language was found in a transaction"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Item Translation'
+#: item_translation/item_translation/doctype/item_translation/item_translation.json
+msgid "Infos"
+msgstr ""
+
+#. Name of a DocType
+#: item_translation/item_translation/doctype/item_translation/item_translation.json
+msgid "Item Translation"
+msgstr ""
+
+#. Name of a DocType
+#: item_translation/item_translation/doctype/item_translation_settings/item_translation_settings.json
+msgid "Item Translation Settings"
+msgstr ""
+
+#. Description of the 'Default Language' (Link) field in DocType 'Item
+#. Translation Settings'
+#: item_translation/item_translation/doctype/item_translation_settings/item_translation_settings.json
+msgid "Language of the Item Description field in Item Master"
+msgstr ""
+
+#: item_translation/public/js/utils.js:50
+msgid "Print Language has changed. Refetch Items for language <b> {0} </b>?"
+msgstr ""
+
+#: item_translation/public/js/utils.js:62
+msgid "Translation missing for <b> {0} </b> in language <b> {1}</b>"
+msgstr ""
+
+#: item_translation/public/js/utils.js:33
+msgid "Translation missing for <b> {0} </b> in language <b> {1}</b>. Please change print language in customer or add <b>Item Translation</b>"
+msgstr ""
+
