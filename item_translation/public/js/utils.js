@@ -23,7 +23,7 @@ item_translation.utils = {
 				} else if (settings.display_warnings === 1) {
 					frappe.msgprint(
 						__(
-							"Translation missing for <b> {0} </b> in language <b> {1}</b> <br>. Please change print language in customer or add <b>Item Translation</b>",
+							"Translation missing for <b> {0} </b> in language <b> {1}</b>. Please change print language in customer or add <b>Item Translation</b>",
 							[row.item_name, lang]
 						)
 					);
@@ -79,7 +79,7 @@ item_translation.utils = {
 						} else if (settings.display_warnings == 1) {
 							frappe.msgprint(
 								__(
-									"Translation missing for <b> {0} </b> in language <b> {1}</b> <br>",
+									"Translation missing for <b> {0} </b> in language <b> {1}</b>",
 									[row.item_name, lang]
 								)
 							);
