@@ -31,10 +31,9 @@
    "label": "Display Warnings"
   }
  ],
- "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-08-12 07:46:11.535942",
+ "modified": "2026-05-01 14:56:53.095882",
  "modified_by": "Administrator",
  "module": "Item Translation",
  "name": "Item Translation Settings",
@@ -61,13 +60,15 @@
    "write": 1
   },
   {
-   "email": 1,
-   "print": 1,
    "read": 1,
-   "role": "Stock User",
-   "share": 1
+   "role": "Stock User"
+  },
+  {
+   "read": 1,
+   "role": "Accounts User"
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
